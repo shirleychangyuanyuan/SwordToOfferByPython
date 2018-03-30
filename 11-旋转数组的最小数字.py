@@ -23,7 +23,7 @@ class Solution:
             mid=(low+high)/2
              #考虑到三值相等的情况
             if rotateArray[low] == rotateArray[high] and rotateArray[low] == rotateArray[mid]:
-                return self.MinInOrder(rotateArray, low, mid)
+                return self.MinInOrder(rotateArray, low, high)
             if rotateArray[low]<=rotateArray[mid]:
                 low=mid
             elif rotateArray[mid]<=rotateArray[high]:
