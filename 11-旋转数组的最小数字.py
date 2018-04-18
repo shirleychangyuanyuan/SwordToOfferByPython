@@ -39,6 +39,6 @@ class Solution:
                 result = i
         return result
 s=Solution()
-print(s.minNumberInRotateArray([3,4,5,1,2]))
+print(s.minNumberInRotateArray([1,1,1,0,1]))
 
 
